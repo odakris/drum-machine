@@ -25,6 +25,12 @@ Clone this repository and install the NPM packages:
 npm install
 ```
 
+Next, install node-sass packages:
+
+```
+npm install node-sass
+```
+
 In the project directory, run the following script:
 
 ```
