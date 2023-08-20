@@ -51,7 +51,7 @@ $padHeight: 150px;
 
 @media screen and (max-width: 1025px) {
   #container {
-    transform: scale(0.8);
+    transform: scale(0.7);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -60,5 +60,25 @@ $padHeight: 150px;
 
   #drum-machine {
     flex-direction: column;
+  }
+}
+
+@media screen and (max-height: 650px) {
+  #container {
+    transform: scale(0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-height: 650px) and (max-width: 1025px) {
+  #container {
+    transform: scale(0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
