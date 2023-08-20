@@ -1,5 +1,5 @@
 {
-  "name": "03-drum_machine",
+  "name": "drum-machine",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
