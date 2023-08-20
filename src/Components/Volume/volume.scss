@@ -1,0 +1,21 @@
+// volume slider inspired by jonnaru => https://codepen.io/jonnaru/pen/JjXyKYM
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 400px;
+  height: 10px;
+  background: var(--background-black);
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px var(--background-black);
+}
+
+/* for chrome/safari */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 10px;
+  height: 30px;
+  background: var(--orangered);
+  cursor: pointer;
+  box-shadow: 3px 3px 5px var(--background-black);
+}
